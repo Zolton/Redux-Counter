@@ -3,11 +3,23 @@ import { connect } from 'react-redux';
 import { increment, decrement } from '../actions';
 
 class Counter extends Component {
-    incrementIfOdd = () => {
-        // Stretch Problem: Implement an increment function that
-        // only increments if the counter value is odd
-        
-    };
+    // incrementIfOdd = () => {
+    //     // Stretch Problem: Implement an increment function that
+    //     // only increments if the counter value is odd
+
+            //Attempted stretch.
+    //     //Something like this should work.  Basic idea is to use % to find out if it's even,
+    //     //if so, do nothing, else fire off the increment function
+    //     return {
+    //         if (count % 2 !== 0){
+    //             return {
+    //         this.props.increment()}
+    //         }
+    //         else 
+    //         {this.props.count}
+    //       }
+    //     };
+    // };
 
     incrementAsync = () => {
         // Stretch Problem: Implement an increment function that
@@ -31,8 +43,8 @@ class Counter extends Component {
                 around to implementing the extra credit functions */}
                 {/* <button onClick={()=>{this.incrementIfOdd()}>
                     Increment if odd
-                </button>
-                <button onClick={()=>{this.incrementAsync()}>
+                </button> */}
+                {/* <button onClick={()=>{this.incrementAsync()}>
                     Increment async
                 </button>  */}
             </p>
