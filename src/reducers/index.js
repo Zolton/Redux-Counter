@@ -15,13 +15,13 @@ export default (state = initialState, action) => {
     // Fill in the body of this case
       return {
         ...state,
-        count: action.payload
+        count: state.count + action.payload
       }
     case DECREMENT:
     // Fill in the body of this case
       return {
         ...state,
-        count: action.payload
+        count: state.count + action.payload
       }
     default:
       return state;
