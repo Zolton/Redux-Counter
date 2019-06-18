@@ -1,4 +1,4 @@
-# Redux Counter
+# Redux Counters
 
 ## Topics
 
